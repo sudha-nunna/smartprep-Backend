@@ -18,7 +18,7 @@ const learningBoardsRoutes = require("./routes/learningBoardsRoutes");
 const userProgressRoutes = require("./routes/userProgressRoutes");
 
 
-const metricsRoutes = require("./routes/MetricsRoutes.js");
+const metricsRoutes = require("./routes/metricsRoutes.js");
 const practiceTestRoutes = require("./routes/practiceTestRoutes");
 const recentActivityRoutes = require("./routes/recentActivityRoutes");
 const courseRoutes = require("./routes/courseRoutes");
