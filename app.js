@@ -28,7 +28,7 @@ const app = express();
 
 // Enable CORS
 const allowedOrigins = [
-  process.env.CLIENT_URL || 'http://localhost:3000',
+  process.env.CLIENT_URL || 'https://smartpre-frontend-kfrcr6p77-sudhanunna1-7765s-projects.vercel.app',
   'http://localhost:3000', // Keep for local development
 ];
 

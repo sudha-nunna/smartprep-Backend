@@ -4,7 +4,7 @@ const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const sendResetPasswordEmail = async (to, token) => {
-  const resetLink = `${process.env.CLIENT_URL || "http://localhost:3000"}/auth/reset-password/${token}`;
+  const resetLink = `${process.env.CLIENT_URL || "https://smartpre-frontend-kfrcr6p77-sudhanunna1-7765s-projects.vercel.app"}/auth/reset-password/${token}`;
 
   const msg = {
     to,
